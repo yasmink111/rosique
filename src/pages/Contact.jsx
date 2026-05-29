@@ -1,31 +1,64 @@
 import "./page-css/Contact.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-const Contact=()=>{
-    return(
+
+const Contact = () => {
+    function handleSubmit(e) {
+        e.preventDefault();
+        alert("Message sent successfully!");
+    }
+
+    return (
         <div>
-        <Header />
-       <div className="contact-container">
-        <h1>Contact Us</h1>
-        <p>We'd love to hear from you</p>
+            <Header />
+            <div className="contact-container">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you</p>
+                <form
+                    className="contact-form"
+                    onSubmit={handleSubmit}
+                >
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        required
+                    />
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        required
+                    />
+                    <input
+                        type="text"
+                        placeholder="Subject"
+                        required
+                    />
+                    <textarea
+                        placeholder="Your Message..."
+                        rows="5"
+                        required
+                    ></textarea>
+                    <button type="submit">
+                        Send Message
+                    </button>
 
-        <form className="contact-form">
-            <input type="text" placeholder="Full Name" required />
-            <input type="email" placeholder="Email Address" required />
-            <input type="text" placeholder="Subject" required />
+                </form>
 
-            <textarea placeholder="Your Message..." rows="5" required></textarea>
+                <div className="contact-info">
 
-            <button type="submit">Send Message</button>
-        </form>
+                    <p> Email: rosique@gmail.com </p>
 
-        <div className="contact-info">
-            <p>Email: rosique@gmail.com</p>
-            <p>Phone: +961 71 786 418</p>
+                    <p>Phone: +961 71 786 4182</p>
+
+                </div>
+
+            </div>
+
+            <Footer />
+
         </div>
-    </div>
-    <Footer />
-    </div>
+
     );
 }
+
 export default Contact;
