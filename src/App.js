@@ -31,8 +31,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Wishlist" element={<Wishlist />} />
         <Route path="/checkout" element={<Checkout />} />
-        <Route path="/brands/:brandName" element={<BrandPage />}
-/>
+        <Route path="/brands/:brandName" element={<BrandPage />}/>
       </Routes>
   );
 }
