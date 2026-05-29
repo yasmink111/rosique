@@ -1,37 +1,56 @@
 import "./page-css/Contact.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { useState } from "react";
 
 const Contact = () => {
 
-    const sendMessage = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
 
+    const sendMessage = () => {
+        if (!name || !email || !subject || !message) {
+            alert("Please fill all fields.");
+            return;
+        }
         alert("Message sent successfully!");
     }
 
     return (
         <div>
-
             <Header />
-
             <div className="contact-container">
-
                 <h1>Contact Us</h1>
-
                 <p>We'd love to hear from you</p>
-
                 <form className="contact-form">
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                    />
 
-                    <input type="text" placeholder="Full Name" required />
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
 
-                    <input type="email" placeholder="Email Address" required />
-
-                    <input type="text" placeholder="Subject" required />
+                    <input
+                        type="text"
+                        placeholder="Subject"
+                        value={subject}
+                        onChange={(e) => setSubject(e.target.value)}
+                    />
 
                     <textarea
                         placeholder="Your Message..."
                         rows="5"
-                        required
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                     ></textarea>
 
                     <button
@@ -42,19 +61,12 @@ const Contact = () => {
                     </button>
 
                 </form>
-
                 <div className="contact-info">
-
                     <p>Email: rosique@gmail.com</p>
-
                     <p>Phone: +961 71 786 4182</p>
-
                 </div>
-
             </div>
-
             <Footer />
-
         </div>
     );
 }
