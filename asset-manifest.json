@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rosique/static/css/main.3c6f9cff.css",
-    "main.js": "/rosique/static/js/main.2c3e061a.js",
+    "main.js": "/rosique/static/js/main.da953b27.js",
     "static/media/logo.png": "/rosique/static/media/logo.8979d09443057bc95ffd.png",
     "index.html": "/rosique/index.html",
     "main.3c6f9cff.css.map": "/rosique/static/css/main.3c6f9cff.css.map",
-    "main.2c3e061a.js.map": "/rosique/static/js/main.2c3e061a.js.map"
+    "main.da953b27.js.map": "/rosique/static/js/main.da953b27.js.map"
   },
   "entrypoints": [
     "static/css/main.3c6f9cff.css",
-    "static/js/main.2c3e061a.js"
+    "static/js/main.da953b27.js"
   ]
 }
