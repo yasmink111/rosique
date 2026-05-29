@@ -1,130 +1,89 @@
 .checkout-container {
     display: flex;
-
     gap: 40px;
-
     max-width: 1100px;
-
     margin: 60px auto;
-
     padding: 30px 20px;
 }
 
 .checkout-form {
     flex: 2;
-
     display: flex;
     flex-direction: column;
-
     gap: 18px;
-
     background: #fff7f8;
-;
-
     padding: 35px;
-
     border-radius: 28px;
-
-    box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
 }
 
 .checkout-form h2 {
     color: #800020;
-
     margin-bottom: 5px;
-
     font-size: 28px;
 }
 
-
 .checkout-form input {
     padding: 14px 18px;
-
     border-radius: 22px;
-
     border: 2px solid #800020;
-
     outline: none;
-
     background-color: #fff5e6;
-
     font-size: 15px;
-
     transition: 0.3s ease;
 }
 
 .checkout-form input:focus {
     border-color: #b03052;
-
     box-shadow: 0 0 0 4px rgba(128, 0, 32, 0.1);
 }
 
-
 .row {
     display: flex;
-
     gap: 12px;
 }
 
 .row input {
     flex: 1;
 }
+
 .checkout-form button {
     margin-top: 10px;
-
     padding: 14px;
-
     border-radius: 30px;
-
     border: none;
-
     background: #800020;
-
     color: beige;
-
     font-size: 16px;
-
     font-weight: 600;
-
     cursor: pointer;
-
     transition: 0.3s ease;
 }
 
 .checkout-form button:hover {
     background: #a00032;
-
     transform: translateY(-2px);
 }
+
 .checkout-summary {
     flex: 1;
-
-        background: #fff7f8;
-
-
+    background: #fff7f8;
     padding: 30px;
-
     border-radius: 28px;
-
     height: fit-content;
-
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
     position: sticky;
-
     top: 120px;
 }
 
 .checkout-summary h2 {
     color: #800020;
-
     margin-bottom: 20px;
 }
 
 .checkout-summary p,
 .checkout-summary h3 {
     margin: 14px 0;
-
     color: #5a1a2c;
 }
 
@@ -132,16 +91,13 @@
     font-size: 24px;
 }
 
-
-@media (max-width: 768px){
-
+@media (max-width: 768px) {
     .checkout-form,
-    .checkout-summary{
+    .checkout-summary {
         padding: 22px;
     }
 
-    .row{
+    .row {
         flex-direction: column;
     }
-
 }

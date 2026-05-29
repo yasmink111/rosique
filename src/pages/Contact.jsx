@@ -1,7 +1,7 @@
 import "./page-css/Contact.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-function Contact(){
+const Contact=()=>{
     return(
         <div>
         <Header />

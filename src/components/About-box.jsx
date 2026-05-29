@@ -1,5 +1,4 @@
 import "./comp-css/About-box.css";
-
 const AboutBox = ({ text, info }) => {
     return (
         <div className="about-box">

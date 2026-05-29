@@ -6,7 +6,5 @@ const AccountBox = ({text,info}) => {
             <p>{info}</p>
         </div>
     );
-
-
 }
 export default AccountBox;

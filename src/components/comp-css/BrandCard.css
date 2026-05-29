@@ -15,7 +15,7 @@
     padding-bottom: 20px;
 }
 .BC-info h3{
-    margin-bottom:0 0 0 2px;
+    margin-bottom:2px;
 }
 .brand-card img{
     width: 100%;
@@ -32,19 +32,15 @@
     margin: 10px 0;
 }
 @media (max-width: 768px){
-
     .brand-card{
         min-width: 240px;
 
         max-width: 240px;
     }
-
     .brand-card img{
         height: 180px;
     }
-
     .BC-info{
         padding: 12px;
     }
-
 }

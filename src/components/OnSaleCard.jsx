@@ -4,13 +4,9 @@ import "./comp-css/OnSaleCard.css";
 import "./CartSideBar";
 import WishListBtn from "./WishlistBtn";
 import { addToCart } from "./cartfuncts";
-
 const OnSaleCard = ({ products }) => {
-
     return (
-
         <>
-
             {products.map((card) => (
 
                 <div

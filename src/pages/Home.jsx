@@ -27,23 +27,23 @@ const Home = () => {
           From perfumes and makeup to skincare and hair products,
           discover your next beauty favorite today.
         </p>
-      
-          <Button text={"View all Brands"} bgcolor={"#800020"} tcolor={"#ffff"} onClick={() => navigate("./Brands")}/>
-        
+
+        <Button text={"View all Brands"} bgcolor={"#800020"} tcolor={"#ffff"} onClick={() => navigate("./Brands")} />
+
       </div>
-<h2 className="titles">On Sale</h2>
+      <h2 className="titles">On Sale</h2>
       <div className="scroll-poster">
-       
-        <OnSaleCard  products={SaleProducts}/>
-        
+
+        <OnSaleCard products={SaleProducts} />
+
       </div>
       <div className="bttn">
-        <Button text={"View all Items"} bgcolor={"#800020"}  tcolor={"#ffff"} onClick={() => navigate("./OnSale")}/>
+        <Button text={"View all Items"} bgcolor={"#800020"} tcolor={"#ffff"} onClick={() => navigate("./OnSale")} />
       </div>
       <h2 className="titles">Buy More, Pay Less</h2>
       <div className="scroll-poster">
-        
-        <OnSaleCard  products={buyMoreProducts}/>
+
+        <OnSaleCard products={buyMoreProducts} />
       </div>
 
       <Footer />

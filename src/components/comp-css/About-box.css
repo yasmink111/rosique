@@ -9,7 +9,6 @@
 .about-box:hover{
     transform: translateY(-8px) scale(1.02);
 }
-
 .about-box h3{
     margin-bottom: 10px;
 }

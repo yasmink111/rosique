@@ -1,12 +1,8 @@
 .product-scroll {
     display: flex;
-
     overflow-x: auto;
-
     gap: 30px;
-
     padding: 10px 5px 25px;
-
     scroll-behavior: smooth;
 }
 .scroll-poster::-webkit-scrollbar {

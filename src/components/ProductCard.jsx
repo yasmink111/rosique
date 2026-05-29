@@ -26,27 +26,27 @@ const ProductCard = ({ product }) => {
 
                 <div className="price-container">
 
-    {product.salePrice !== undefined ? (
+                    {product.salePrice !== undefined ? (
 
-        <>
-            <p className="old-price">
-                ${product.price}
-            </p>
+                        <>
+                            <p className="old-price">
+                                ${product.price}
+                            </p>
 
-            <p className="sale-price">
-                ${product.salePrice}
-            </p>
-        </>
+                            <p className="sale-price">
+                                ${product.salePrice}
+                            </p>
+                        </>
 
-    ) : (
+                    ) : (
 
-        <p className="price">
-            ${product.price}
-        </p>
+                        <p className="price">
+                            ${product.price}
+                        </p>
 
-    )}
+                    )}
 
-</div>
+                </div>
 
                 <Button
                     text={"Add To Cart"}

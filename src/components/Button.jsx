@@ -1,14 +1,6 @@
 import "./comp-css/Button.css";
-
-const Button = ({
-    text,
-    bgcolor,
-    tcolor,
-    onClick
-}) => {
-
+const Button = ({text,bgcolor,tcolor,onClick}) => {
     return (
-
         <button
             className="btn"
             style={{
@@ -17,11 +9,8 @@ const Button = ({
             }}
             onClick={onClick}
         >
-
             {text}
-
         </button>
     );
 };
-
 export default Button;

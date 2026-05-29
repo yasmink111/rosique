@@ -2,7 +2,7 @@ import "./comp-css/BrandCard.css";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import {brandCards} from "../data/products";
-function BrandCard() {
+const BrandCard =() =>{
     const navigate = useNavigate();
     return (
         <>

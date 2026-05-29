@@ -7,15 +7,11 @@
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     transition: 0.3s;
 }
-
 .account-box:hover {
     transform: translateY(-8px) scale(1.03);
     background: #800020;
     color: beige;
 }
-.logout {
-    border: 2px solid #800020;
-}   
 @media (max-width: 768px){
 
     .account-box{

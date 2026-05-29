@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./comp-css/SideMenu.css";
 
-function SideMenu() {
+const SideMenu=()=> {
     const [open,setOpen] = useState(false);
     const navigate = useNavigate();
     return (
