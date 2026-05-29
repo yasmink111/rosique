@@ -26,7 +26,7 @@ function BrandCard() {
                             text={"View Brand"}
                             bgcolor={card.bgcolor}
                             tcolor={"#800020"}
-                            onClick={() => navigate("/brands")}
+                            onClick={() => navigate(`/brands/${card.name}`)}
                         />
                     </div>
                 </div>

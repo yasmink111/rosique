@@ -21,7 +21,7 @@ const BrandPage = () => {
 
             ===
 
-            brandName
+            brandName.toLowerCase().replace(/\s+/g,"")
         );
     const realBrandName =
         filteredProducts[0]?.brand || brandName;
