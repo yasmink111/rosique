@@ -1,0 +1,18 @@
+.scroll-poster{
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 40px 20px 20px;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+.scroll-poster::-webkit-scrollbar {
+    display: none;
+}
+@media (max-width: 768px){
+
+    .scroll-poster{
+        padding: 10px;
+        gap: 15px;
+    }
+
+}

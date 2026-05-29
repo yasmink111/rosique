@@ -1,0 +1,77 @@
+.account-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.account-container h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.welcome-text {
+    margin-bottom: 40px;
+    color: #555;
+    font-size: 16px;
+}
+
+.account-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.account-box {
+    background: #fff7f8;
+    padding: 25px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #800020;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.account-box:hover {
+    transform: translateY(-8px) scale(1.03);
+    background: #800020;
+    color: beige;
+}
+
+.logout {
+    border: 2px solid #800020;
+}
+
+.logout:hover {
+    background: #a8324a;
+}
+.account-details {
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 25px;
+
+    margin: 25px 0;
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.account-details p {
+    color: #800020;
+
+    margin: 10px 0;
+
+    font-size: 18px;
+}
+@media (max-width: 768px){
+
+    .account-container{
+        padding: 15px;
+    }
+
+    .account-boxes{
+        grid-template-columns: 1fr;
+    }
+
+}

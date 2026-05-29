@@ -1,0 +1,50 @@
+.brand-card{
+    min-width: 280px;
+    max-width: 280px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.brand-card:hover{
+    transform: scale(1.02);
+}
+.BC-info{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.BC-info h3{
+    margin-bottom:0 0 0 2px;
+}
+.brand-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.BC-info .BC-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.BC-info p{
+    margin: 10px 0;
+}
+@media (max-width: 768px){
+
+    .brand-card{
+        min-width: 240px;
+
+        max-width: 240px;
+    }
+
+    .brand-card img{
+        height: 180px;
+    }
+
+    .BC-info{
+        padding: 12px;
+    }
+
+}

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times ,serif;
+    background-color: #fff5e6;
+    color: #800020;
+}
+
+@media (max-width: 768px) {
+    header{
+        padding: 20px 10px;
+    }
+    .logo{
+        height: 70px;
+    }
+
+    
+}

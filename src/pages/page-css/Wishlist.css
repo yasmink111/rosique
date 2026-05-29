@@ -1,0 +1,179 @@
+.wishlist-page {
+    min-height: 100vh;
+
+    background-color: #fff5e6;
+
+    padding: 70px 120px;
+}
+
+.wishlist-page h1 {
+    text-align: center;
+
+    font-size: 56px;
+
+    color: #800020;
+
+    margin-bottom: 70px;
+
+    font-weight: 600;
+
+    letter-spacing: -2px;
+}
+
+.wishlist-items {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 28px;
+
+    max-width: 1150px;
+
+    margin: auto;
+}
+
+.wishlist-item {
+    display: flex;
+
+    align-items: center;
+
+    background-color:
+        rgba(255,255,255,0.45);
+
+    border:
+        2px solid #f0d7db;
+
+    border-radius: 30px;
+
+    padding: 26px 34px;
+
+    transition: 0.3s ease;
+
+    position: relative;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+        0 8px 22px rgba(0,0,0,0.04);
+}
+
+.wishlist-item:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 16px 30px rgba(128,0,32,0.07);
+}
+
+.wishlist-img {
+    width: 150px;
+    height: 150px;
+
+    object-fit: contain;
+
+    margin-right: 35px;
+
+    filter:
+        drop-shadow(
+            0 10px 14px rgba(0,0,0,0.08)
+        );
+}
+
+.wishlist-info {
+    flex: 1;
+}
+
+.wishlist-info h2 {
+    font-size: 28px;
+
+    color: #241818;
+
+    margin-bottom: 8px;
+
+    font-weight: 600;
+}
+
+.wishlist-brand {
+    color: #8d7b7b;
+
+    font-size: 16px;
+
+    margin-bottom: 14px;
+}
+
+.wishlist-price {
+    color: #800020;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    margin-bottom: 18px;
+}
+
+.wishlist-actions {
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+}
+
+.cart-btn {
+    border: none;
+
+    background-color: #d8b4b8;
+
+    color: #800020;
+
+    padding: 12px 22px;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition: 0.25s;
+}
+
+.cart-btn:hover {
+    background-color: #800020;
+
+    color: white;
+}
+
+.remove-btn {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+
+    border: none;
+
+    background-color: transparent;
+
+    color: #800020;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+.remove-btn:hover {
+    background-color: #800020;
+
+    color: white;
+
+}
+
+.empty-message {
+    text-align: center;
+
+    font-size: 24px;
+
+    color: #8a7a7a;
+}
