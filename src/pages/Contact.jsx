@@ -16,6 +16,10 @@ const Contact = () => {
             return;
         }
         alert("Message sent successfully!");
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
     }
 
     return (
