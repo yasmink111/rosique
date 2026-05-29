@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .cart-overlay {
     position: fixed;
 
@@ -29,6 +33,8 @@
     transition: 0.35s ease;
 
     padding: 30px 25px;
+
+    box-sizing: border-box;
 
     display: flex;
 
@@ -262,7 +268,9 @@
 
 .cart-footer {
     padding-top: 25px;
-margin-bottom:50px;
+
+    margin-bottom: 50px;
+
     border-top: 2px solid #f0d7db;
 }
 
@@ -301,6 +309,7 @@ margin-bottom:50px;
 
     opacity: 0.92;
 }
+
 .cart-icon-wrapper {
     position: relative;
 
@@ -336,14 +345,17 @@ margin-bottom:50px;
 
     font-weight: bold;
 }
+
 @media (max-width: 768px){
 
     .cart-sidebar{
-        width: 100%;
+        width: 100vw;
 
         right: -100%;
 
         padding: 25px 18px;
+
+        box-sizing: border-box;
     }
 
     .cart-header h2{
