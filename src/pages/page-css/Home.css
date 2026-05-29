@@ -1,3 +1,4 @@
+
 .scroll-poster{
     display: flex;
     overflow-x: auto;
@@ -5,6 +6,7 @@
     gap: 10px;
     scroll-behavior: smooth;
 }
+
 .scroll-poster::-webkit-scrollbar {
     display: none;
 }

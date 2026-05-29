@@ -4,7 +4,6 @@ import Button from "../components/Button";
 import "./page-css/Home.css";
 import ProductCard from "../components/ProductCard";
 import BrandCard from "../components/BrandCard";
-import "./page-css/body.css";
 import OnSaleCard from "../components/OnSaleCard";
 import SideMenu from "../components/SideMenu";
 import { useNavigate } from "react-router-dom";
