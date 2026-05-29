@@ -11,10 +11,7 @@ const Contact = () => {
     const [message, setMessage] = useState("");
 
     const sendMessage = () => {
-        if (!name || !email || !subject || !message) {
-            alert("Please fill all fields.");
-            return;
-        }
+        
         alert("Message sent successfully!");
         setName("");
         setEmail("");
