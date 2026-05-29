@@ -6,7 +6,7 @@ const products = [
         brand: "Giorgio Armani Beauty",
         category: "Foundation",
         price: 69,
-        image: "/images/armani1.jpg",
+        image:process.env.PUBLIC_URL+"/images/armani1.jpg",
         description: "Radiant lightweight foundation with buildable coverage"
     },
 
@@ -16,7 +16,7 @@ const products = [
         brand: "Huda Beauty",
         category: "Foundation",
         price: 40,
-        image: "/images/huda1.jpg",
+        image:process.env.PUBLIC_URL+"/images/huda1.jpg",
         description: "Full coverage luminous matte foundation"
     },
 
@@ -26,7 +26,7 @@ const products = [
         brand: "Charlotte Tilbury",
         category: "Foundation",
         price: 49,
-        image: "/images/ct1.jpg",
+        image:process.env.PUBLIC_URL+ "/images/ct1.jpg",
         description: "Airbrushed flawless long-lasting foundation"
     },
 
@@ -36,7 +36,7 @@ const products = [
         brand: "Chanel Beauty",
         category: "Foundation",
         price: 70,
-        image: "/images/chanel1.jpg",
+        image:process.env.PUBLIC_URL+"/images/chanel1.jpg",
         description: "Natural healthy glow hydrating foundation"
     },
 
@@ -46,7 +46,7 @@ const products = [
         brand: "Chanel Beauty",
         category: "Foundation",
         price: 65,
-        image: "/images/chanel3.jpg",
+        image:process.env.PUBLIC_URL+"/images/chanel3.jpg",
         description: "Ultra-light luminous complexion foundation"
     },
 
@@ -56,7 +56,7 @@ const products = [
         brand: "Dior Beauty",
         category: "Foundation",
         price: 52,
-        image: "/images/dior2.jpg",
+        image:process.env.PUBLIC_URL+"/images/dior2.jpg",
         description: "Radiant transfer-proof skincare foundation"
     },
 
@@ -66,7 +66,7 @@ const products = [
         brand: "Gucci Beauty",
         category: "Foundation",
         price: 68,
-        image: "/images/gucci1.jpg",
+        image:process.env.PUBLIC_URL+"/images/gucci1.jpg",
         description: "Luxury smoothing long-wear foundation"
     },
 
@@ -76,7 +76,7 @@ const products = [
         brand: "Haus Labs",
         category: "Foundation",
         price: 45,
-        image: "/images/haus1.jpg",
+        image:process.env.PUBLIC_URL+"/images/haus1.jpg",
         description: "Skincare-infused medium coverage foundation"
     },
 
@@ -86,7 +86,7 @@ const products = [
         brand: "NARS",
         category: "Foundation",
         price: 47,
-        image: "/images/nars1.jpg",
+        image:process.env.PUBLIC_URL+"/images/nars1.jpg",
         description: "Natural radiant glow foundation"
     },
 
@@ -96,7 +96,7 @@ const products = [
         brand: "Lancôme",
         category: "Foundation",
         price: 55,
-        image: "/images/lancome1.jpg",
+        image: process.env.PUBLIC_URL+ "/images/lancome1.jpg",
         description: "24-hour full coverage foundation"
     },
 
@@ -106,7 +106,7 @@ const products = [
         brand: "Giorgio Armani Beauty",
         category: "Concealer",
         price: 42,
-        image: "/images/armani2.jpg",
+        image:process.env.PUBLIC_URL+ "/images/armani2.jpg",
         description: "Lightweight high coverage concealer"
     },
 
@@ -116,7 +116,7 @@ const products = [
         brand: "e.l.f. Cosmetics",
         category: "Concealer",
         price: 8,
-        image: "/images/elf2.jpg",
+        image:process.env.PUBLIC_URL+"/images/elf2.jpg",
         description: "Hydrating full coverage concealer"
     },
 
@@ -126,7 +126,7 @@ const products = [
         brand: "NARS",
         category: "Concealer",
         price: 32,
-        image: "/images/nars2.jpg",
+        image:process.env.PUBLIC_URL+"/images/nars2.jpg",
         description: "Creamy brightening concealer"
     },
 
@@ -136,7 +136,7 @@ const products = [
         brand: "Giorgio Armani Beauty",
         category: "Blush",
         price: 38,
-        image: "/images/armani3.jpg",
+        image:process.env.PUBLIC_URL+"/images/armani3.jpg",
         description: "Natural liquid blush with radiant finish"
     },
 
@@ -146,7 +146,7 @@ const products = [
         brand: "NARS",
         category: "Blush",
         price: 34,
-        image: "/images/nars3.jpg",
+        image:process.env.PUBLIC_URL+"/images/nars3.jpg",
         description: "Highly pigmented natural glow blush"
     },
 
@@ -156,7 +156,7 @@ const products = [
         brand: "REFY",
         category: "Blush",
         price: 20,
-        image: "/images/refy2.jpg",
+        image:process.env.PUBLIC_URL+"/images/refy2.jpg",
         description: "Creamy blendable blush"
     },
 
@@ -166,7 +166,7 @@ const products = [
         brand: "Chanel Beauty",
         category: "Blush",
         price: 40,
-        image: "/images/chanel4.jpg",
+        image:process.env.PUBLIC_URL+"/images/chanel4.jpg",
         description: "Elegant silky powder blush"
     },
 
@@ -176,7 +176,7 @@ const products = [
         brand: "Haus Labs",
         category: "Blush",
         price: 32,
-        image: "/images/haus2.jpg",
+        image:process.env.PUBLIC_URL+ "/images/haus2.jpg",
         description: "Cream blush balm with skin-like finish"
     },
 
@@ -186,7 +186,7 @@ const products = [
         brand: "Benefit Cosmetics",
         category: "Bronzer",
         price: 35,
-        image: "/images/benefit1.jpg",
+        image:process.env.PUBLIC_URL+ "/images/benefit1.jpg",
         description: "Iconic matte bronzer"
     },
 
@@ -196,7 +196,7 @@ const products = [
         brand: "NARS",
         category: "Bronzer",
         price: 38,
-        image: "/images/nars4.jpg",
+        image:process.env.PUBLIC_URL+"/images/nars4.jpg",
         description: "Sun-kissed bronzing powder"
     },
 
@@ -206,7 +206,7 @@ const products = [
         brand: "REFY",
         category: "Bronzer",
         price: 26,
-        image: "/images/refy4.jpg",
+        image:process.env.PUBLIC_URL+"/images/refy4.jpg",
         description: "Natural sculpting cream bronzer"
     },
 
@@ -216,7 +216,7 @@ const products = [
         brand: "Anastasia Beverly Hills",
         category: "Highlighter",
         price: 40,
-        image: "/images/ana4.jpg",
+        image:process.env.PUBLIC_URL+"/images/ana4.jpg",
         description: "Multi-shade glow highlighter palette"
     },
 
@@ -226,7 +226,7 @@ const products = [
         brand: "Haus Labs",
         category: "Highlighter",
         price: 40,
-        image: "/images/haus4.jpg",
+        image:process.env.PUBLIC_URL+ "/images/haus4.jpg",
         description: "Radiant gel-powder highlighter"
     },
 
@@ -237,7 +237,7 @@ const products = [
         category: "Highlighter",
         price: 46,
         salePrice: 31,
-        image: "/images/ct4.jpg",
+        image:process.env.PUBLIC_URL+"/images/ct4.jpg",
         description: "Complexion booster and glow enhancer",
         borderColor: "#f6a0df"
     },
@@ -248,7 +248,7 @@ const products = [
         brand: "Huda Beauty",
         category: "Powder",
         price: 38,
-        image: "/images/huda2.jpg",
+        image:process.env.PUBLIC_URL+"/images/huda2.jpg",
         description: "Loose powder for smooth blurred finish"
     },
 
@@ -258,7 +258,7 @@ const products = [
         brand: "Gucci Beauty",
         category: "Powder",
         price: 62,
-        image: "/images/gucci4.jpg",
+        image:process.env.PUBLIC_URL+"/images/gucci4.jpg",
         description: "Luxury soft-focus face powder"
     },
 
@@ -268,7 +268,7 @@ const products = [
         brand: "Anastasia Beverly Hills",
         category: "Eyes",
         price: 32,
-        image: "/images/ana3.jpg",
+        image:process.env.PUBLIC_URL+"/images/ana3.jpg",
         description: "Neutral glam eyeshadow palette"
     },
 
@@ -278,7 +278,7 @@ const products = [
         brand: "Huda Beauty",
         category: "Eyes",
         price: 29,
-        image: "/images/huda3.jpg",
+        image:process.env.PUBLIC_URL+"/images/huda3.jpg",
         description: "Highly pigmented compact eyeshadow palette"
     },
 
@@ -288,7 +288,7 @@ const products = [
         brand: "e.l.f. Cosmetics",
         category: "Eyes",
         price: 5,
-        image: "/images/elf4.jpg",
+        image:process.env.PUBLIC_URL+"/images/elf4.jpg",
         description: "Mini affordable eyeshadow palette"
     },
 
@@ -299,7 +299,7 @@ const products = [
         category: "Eyes",
         price: 48,
         salePrice: 38,
-        image: "/images/dior3.jpg",
+        image:process.env.PUBLIC_URL+"/images/dior3.jpg",
         description: "Professional multi-finish eyeshadow palette",
         borderColor: "#eeb09a"
     },
@@ -311,7 +311,7 @@ const products = [
         brand: "Giorgio Armani Beauty",
         category: "Mascara",
         price: 36,
-        image: "/images/armani4.jpg",
+        image:process.env.PUBLIC_URL+"/images/armani4.jpg",
         description: "Volumizing dramatic black mascara"
     },
 
@@ -321,7 +321,7 @@ const products = [
         brand: "Benefit Cosmetics",
         category: "Mascara",
         price: 28,
-        image: "/images/benefit2.jpg",
+        image:process.env.PUBLIC_URL+"/images/benefit2.jpg",
         description: "Lengthening and lifting mascara"
     },
 
@@ -331,7 +331,7 @@ const products = [
         brand: "Dior Beauty",
         category: "Mascara",
         price: 32,
-        image: "/images/dior4.jpg",
+        image:process.env.PUBLIC_URL+"/images/dior4.jpg",
         description: "Curling volumizing mascara"
     },
 
@@ -341,7 +341,7 @@ const products = [
         brand: "Lancôme",
         category: "Mascara",
         price: 35,
-        image: "/images/lancome2.jpg",
+        image:process.env.PUBLIC_URL+"/images/lancome2.jpg",
         description: "Instant full-body volume mascara"
     },
 
@@ -351,7 +351,7 @@ const products = [
         brand: "Gucci Beauty",
         category: "Mascara",
         price: 38,
-        image: "/images/gucci3.jpg",
+        image:process.env.PUBLIC_URL+"/images/gucci3.jpg",
         description: "Luxury buildable volume mascara"
     },
 
@@ -361,7 +361,7 @@ const products = [
         brand: "Charlotte Tilbury",
         category: "Lips",
         price: 35,
-        image: "/images/ct2.jpg",
+        image:process.env.PUBLIC_URL+"/images/ct2.jpg",
         description: "Iconic nude pink matte lipstick"
     },
 
@@ -371,7 +371,7 @@ const products = [
         brand: "Huda Beauty",
         category: "Lips",
         price: 20,
-        image: "/images/huda4.jpg",
+        image:process.env.PUBLIC_URL+"/images/huda4.jpg",
         description: "Creamy long-lasting lip liner"
     },
 
@@ -381,7 +381,7 @@ const products = [
         brand: "REFY",
         category: "Lips",
         price: 18,
-        image: "/images/refy3.jpg",
+        image:process.env.PUBLIC_URL+"/images/refy3.jpg",
         description: "Hydrating high-shine lip gloss"
     },
 
@@ -391,7 +391,7 @@ const products = [
         brand: "Gucci Beauty",
         category: "Lips",
         price: 45,
-        image: "/images/gucci2.jpg",
+        image:process.env.PUBLIC_URL+"/images/gucci2.jpg",
         description: "Luxury satin finish lipstick"
     },
 
@@ -401,7 +401,7 @@ const products = [
         brand: "Chanel Beauty",
         category: "Lips",
         price: 45,
-        image: "/images/chanel2.jpg",
+        image:process.env.PUBLIC_URL+"/images/chanel2.jpg",
         description: "Hydrating shine lipstick"
     },
 
@@ -411,7 +411,7 @@ const products = [
         brand: "Dior Beauty",
         category: "Lips",
         price: 38,
-        image: "/images/dior1.jpg",
+        image:process.env.PUBLIC_URL+"/images/dior1.jpg",
         description: "Color-reviving hydrating lip balm"
     },
 
@@ -421,7 +421,7 @@ const products = [
         brand: "Lancôme",
         category: "Lips",
         price: 22,
-        image: "/images/lancome3.jpg",
+        image:process.env.PUBLIC_URL+"/images/lancome3.jpg",
         description: "Classic ultra-shiny lip gloss"
     },
     {
@@ -430,7 +430,7 @@ const products = [
         brand: "Haus Labs",
         category: "Lips",
         price: 26,
-        image: "/images/haus3.jpg",
+        image:process.env.PUBLIC_URL+"/images/haus3.jpg",
         description: "hydrating shine"
     },
     {
@@ -439,7 +439,7 @@ const products = [
         brand: "Charlotte Tilbury",
         category: "Setting Spray",
         price: 38,
-        image: "/images/ct3.jpg",
+        image:process.env.PUBLIC_URL+"/images/ct3.jpg",
         description: "Hydrating waterproof setting spray for long-lasting flawless makeup"
     },
     {
@@ -453,7 +453,7 @@ const products = [
 
         price: 10,
 
-        image: "/images/elf3.jpg",
+        image:process.env.PUBLIC_URL+"/images/elf3.jpg",
 
         description: "Smooth blurring primer that minimizes pores and grips makeup"
     },
@@ -468,7 +468,7 @@ const products = [
 
         price: 14,
 
-        image: "/images/elf1.jpg",
+        image:process.env.PUBLIC_URL+"/images/elf1.jpg",
 
         description: "Radiant liquid glow booster for a soft-focus luminous finish"
     },
@@ -478,7 +478,7 @@ const products = [
         brand: "Anastasia Beverly Hills",
         category: "Brows",
         price: 25,
-        image: "/images/ana1.jpg",
+        image:process.env.PUBLIC_URL+ "/images/ana1.jpg",
         description: "Precision brow defining pencil"
     },
 
@@ -488,7 +488,7 @@ const products = [
         brand: "Anastasia Beverly Hills",
         category: "Brows",
         price: 23,
-        image: "/images/ana2.jpg",
+        image:process.env.PUBLIC_URL+ "/images/ana2.jpg",
         description: "Waterproof eyebrow pomade"
     },
 
@@ -498,7 +498,7 @@ const products = [
         brand: "Benefit Cosmetics",
         category: "Brows",
         price: 25,
-        image: "/images/benefit3.jpg",
+        image:process.env.PUBLIC_URL+ "/images/benefit3.jpg",
         description: "Fine-tip brow shaping pencil"
     },
 
@@ -508,7 +508,7 @@ const products = [
         brand: "REFY",
         category: "Brows",
         price: 24,
-        image: "/images/refy1.jpg",
+        image:process.env.PUBLIC_URL+ "/images/refy1.jpg",
         description: "Laminated brow styling gel"
     },
 
@@ -519,7 +519,7 @@ const products = [
         category: "Cleanser",
         price: 18,
         salePrice: 11,
-        image: "/images/bio1.jpg",
+        image:process.env.PUBLIC_URL+ "/images/bio1.jpg",
         description: "Gentle micellar cleansing water",
         borderColor: "#eb525d"
     },
@@ -530,7 +530,7 @@ const products = [
         brand: "Bioderma",
         category: "Moisturizer",
         price: 20,
-        image: "/images/bio2.jpg",
+        image:process.env.PUBLIC_URL+ "/images/bio2.jpg",
         description: "Deeply nourishing body moisturizer"
     },
 
@@ -540,7 +540,7 @@ const products = [
         brand: "Bioderma",
         category: "Cleanser",
         price: 18,
-        image: "/images/bio3.jpg",
+        image:process.env.PUBLIC_URL+ "/images/bio3.jpg",
         description: "Purifying cleanser for oily skin"
     },
 
@@ -550,7 +550,7 @@ const products = [
         brand: "Bioderma",
         category: "Serum",
         price: 22,
-        image: "/images/bio4.jpg",
+        image:process.env.PUBLIC_URL+ "/images/bio4.jpg",
         description: "Intense hydration facial serum"
     },
 
@@ -560,7 +560,7 @@ const products = [
         brand: "Glow Recipe",
         category: "Toner",
         price: 35,
-        image: "/images/glow1.jpg",
+        image:process.env.PUBLIC_URL+ "/images/glow1.jpg",
         description: "Hydrating exfoliating glow toner"
     },
 
@@ -570,7 +570,7 @@ const products = [
         brand: "Glow Recipe",
         category: "Serum",
         price: 38,
-        image: "/images/glow2.jpg",
+        image:process.env.PUBLIC_URL+ "/images/glow2.jpg",
         description: "Brightening glow serum drops"
     },
 
@@ -580,7 +580,7 @@ const products = [
         brand: "Glow Recipe",
         category: "Moisturizer",
         price: 39,
-        image: "/images/glow3.jpg",
+        image:process.env.PUBLIC_URL+ "/images/glow3.jpg",
         description: "Hydrating plumping moisturizer"
     },
 
@@ -590,7 +590,7 @@ const products = [
         brand: "Glow Recipe",
         category: "Cleanser",
         price: 34,
-        image: "/images/glow4.jpg",
+        image:process.env.PUBLIC_URL+ "/images/glow4.jpg",
         description: "Barrier-support gentle cleanser"
     },
 
@@ -601,7 +601,7 @@ const products = [
         category: "Serum",
         price: 78,
         salePrice: 64,
-        image: "/images/lancome4.jpg",
+        image:process.env.PUBLIC_URL+ "/images/lancome4.jpg",
         description: "Youth activating glow boosting serum",
         borderColor: "#baac99"
     },
@@ -612,7 +612,7 @@ const products = [
         brand: "Kérastase",
         category: "Oil",
         price: 55,
-        image: "/images/ker1.jpg",
+        image:process.env.PUBLIC_URL+ "/images/ker1.jpg",
         description: "Shine-enhancing nourishing hair oil"
     },
 
@@ -622,7 +622,7 @@ const products = [
         brand: "Kérastase",
         category: "Shampoo",
         price: 35,
-        image: "/images/ker2.jpg",
+        image:process.env.PUBLIC_URL+ "/images/ker2.jpg",
         description: "Strengthening shampoo for damaged hair"
     },
 
@@ -633,7 +633,7 @@ const products = [
         category: "Mask",
         price: 60,
         salePrice: 53,
-        image: "/images/ker3.jpg",
+        image:process.env.PUBLIC_URL+ "/images/ker3.jpg",
         description: "Deep conditioning nourishing hair mask",
         borderColor: "#f5a98e"
     },
@@ -644,7 +644,7 @@ const products = [
         brand: "Kérastase",
         category: "Oil",
         price: 50,
-        image: "/images/ker4.jpg",
+        image:process.env.PUBLIC_URL+ "/images/ker4.jpg",
         description: "Fortifying anti-breakage scalp serum"
     },
     {
@@ -654,7 +654,7 @@ const products = [
         category: "Fragrance",
         price: 48,
         salePrice: 38,
-        image: "/images/SDJprod1.jpg",
+        image:process.env.PUBLIC_URL+ "/images/SDJprod1.jpg",
         description: "Refreshing mist for all skin types",
         borderColor: "#f497be"
     },
@@ -664,7 +664,7 @@ const products = [
         brand: "Sol de Janeiro",
         category: "Fragrance",
         price: 38,
-        image: "/images/SDJprod2.jpg",
+        image:process.env.PUBLIC_URL+ "/images/SDJprod2.jpg",
         description: "Warm and sweet body fragrance mist"
     },
     {
@@ -673,7 +673,7 @@ const products = [
         brand: "Sol de Janeiro",
         category: "Body Care",
         price: 48,
-        image: "/images/SDJprod3.jpg",
+        image:process.env.PUBLIC_URL+ "/images/SDJprod3.jpg",
         description: "Collagen-boosting body cream for smooth glowing skin"
     }, {
         id: "sdj-body-scrub",
@@ -681,7 +681,7 @@ const products = [
         brand: "Sol de Janeiro",
         category: "Body Care",
         price: 42,
-        image: "/images/SDJprod4.jpg",
+        image:process.env.PUBLIC_URL+ "/images/SDJprod4.jpg",
         description: "Exfoliating scrub for soft smooth glowing skin"
     },
     {
@@ -690,32 +690,32 @@ const products = [
     brand: "Benefit Cosmetics",
     category: "Lips",
     price: 26,
-    image: "/images/benefit4.jpg",
+    image:process.env.PUBLIC_URL+ "/images/benefit4.jpg",
     description: "Iconic rose-tinted lip and cheek stain with a natural long-lasting flush"
 }
 
 ];
 
 const brandCards = [
-    { id: "1", image: "/images/homeCTilbury.jpg", name: "Charlotte Tilbury", description: "Effortless glow, timeless glamour", bgcolor: "#fbc8ed" },
-    { id: "2", image: "/images/homeSDJ.jpg", name: "Sol de Janeiro", description: "Radiance, warmth, and irresistable scent", bgcolor: "#f0e6f0" },
-    { id: "3", image: "/images/homeNars.jpg", name: "Nars", description: "Bold beauty that speaks for itself", bgcolor: "#d8b4b8" },
-    { id: "4", image: "/images/Armani-beauty.jpg", name: "Armani", description: "Refined elegance, perfected", bgcolor: "#eadbc8" },
-    { id: "5", image: "/images/homedior.jpg", name: "Dior", description: "Luxury, elegance in every detail", bgcolor: "#baac99" },
-    { id: "6", image: "/images/homeHB.jpg", name: "Huda Beauty", description: "Bold, flawless glam made to stand out", bgcolor: "#f5a98e" },
+    { id: "1", image:process.env.PUBLIC_URL+ "/images/homeCTilbury.jpg", name: "Charlotte Tilbury", description: "Effortless glow, timeless glamour", bgcolor: "#fbc8ed" },
+    { id: "2", image:process.env.PUBLIC_URL+ "/images/homeSDJ.jpg", name: "Sol de Janeiro", description: "Radiance, warmth, and irresistable scent", bgcolor: "#f0e6f0" },
+    { id: "3", image:process.env.PUBLIC_URL+ "/images/homeNars.jpg", name: "Nars", description: "Bold beauty that speaks for itself", bgcolor: "#d8b4b8" },
+    { id: "4", image:process.env.PUBLIC_URL+ "/images/Armani-beauty.jpg", name: "Armani", description: "Refined elegance, perfected", bgcolor: "#eadbc8" },
+    { id: "5", image:process.env.PUBLIC_URL+ "/images/homedior.jpg", name: "Dior", description: "Luxury, elegance in every detail", bgcolor: "#baac99" },
+    { id: "6", image:process.env.PUBLIC_URL+ "/images/homeHB.jpg", name: "Huda Beauty", description: "Bold, flawless glam made to stand out", bgcolor: "#f5a98e" },
 ];
 const buyMoreProducts = [
-    { id: "1", image: "/images/buy1.jpg", name: "Beija Flor Trio", brand: "Sol de Janeiro", description: "Glow & scent", price: 100, salePrice: 83, borderColor: "#ff8fab" },
+    { id: "1", image:process.env.PUBLIC_URL+ "/images/buy1.jpg", name: "Beija Flor Trio", brand: "Sol de Janeiro", description: "Glow & scent", price: 100, salePrice: 83, borderColor: "#ff8fab" },
 
-    { id: "2", image: "/images/buy3.jpg", name: "Gloss & Shine Hair Set", brand: "Kérastase", description: "Glossy hair", price: 130, salePrice: 108, borderColor: "#e5989b" },
+    { id: "2", image:process.env.PUBLIC_URL+ "/images/buy3.jpg", name: "Gloss & Shine Hair Set", brand: "Kérastase", description: "Glossy hair", price: 130, salePrice: 108, borderColor: "#e5989b" },
 
-    { id: "3", image: "/images/buy6.jpg", name: "Holy Hydration Set", brand: "e.l.f Cosmetics", description: "Deep hydration", price: 50, salePrice: 33, borderColor: "#7ed7c1" },
+    { id: "3", image:process.env.PUBLIC_URL+ "/images/buy6.jpg", name: "Holy Hydration Set", brand: "e.l.f Cosmetics", description: "Deep hydration", price: 50, salePrice: 33, borderColor: "#7ed7c1" },
 
-    { id: "4", image: "/images/buy5.jpg", name: "Watermelon Glow", brand: "Glow Recipe", description: "Dewy skin", price: 130, salePrice: 98, borderColor: "#b8c0ff" },
+    { id: "4", image:process.env.PUBLIC_URL+ "/images/buy5.jpg", name: "Watermelon Glow", brand: "Glow Recipe", description: "Dewy skin", price: 130, salePrice: 98, borderColor: "#b8c0ff" },
 
-    { id: "5", image: "/images/buy2.jpg", name: "Easy Blur Duo", brand: "Huda Beauty", description: "Flawless skin", price: 80, salePrice: 58, borderColor: "#ffb38a" },
+    { id: "5", image:process.env.PUBLIC_URL+ "/images/buy2.jpg", name: "Easy Blur Duo", brand: "Huda Beauty", description: "Flawless skin", price: 80, salePrice: 58, borderColor: "#ffb38a" },
 
-    { id: "6", image: "/images/buy7.jpg", name: "Flawless Complexion Set", brand: "Charlotte Tilbury", description: "Radiant finish", price: 120, salePrice: 94, borderColor: "#f5c97a" },
+    { id: "6", image:process.env.PUBLIC_URL+ "/images/buy7.jpg", name: "Flawless Complexion Set", brand: "Charlotte Tilbury", description: "Radiant finish", price: 120, salePrice: 94, borderColor: "#f5c97a" },
 ];
 
 const SaleProducts = products.filter(product => product.salePrice);

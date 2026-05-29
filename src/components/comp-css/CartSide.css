@@ -351,11 +351,17 @@ body{
     .cart-sidebar{
         width: 100vw;
 
-        right: -100%;
+        right: 0;
+
+        transform: translateX(100%);
 
         padding: 25px 18px;
 
         box-sizing: border-box;
+    }
+
+    .cart-sidebar.open{
+        transform: translateX(0);
     }
 
     .cart-header h2{
