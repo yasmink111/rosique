@@ -699,7 +699,7 @@ const products = [
 const brandCards = [
     { id: "1", image:process.env.PUBLIC_URL+ "/images/homeCTilbury.jpg", name: "Charlotte Tilbury", description: "Effortless glow, timeless glamour", bgcolor: "#fbc8ed" },
     { id: "2", image:process.env.PUBLIC_URL+ "/images/homeSDJ.jpg", name: "Sol de Janeiro", description: "Radiance, warmth, and irresistable scent", bgcolor: "#f0e6f0" },
-    { id: "3", image:process.env.PUBLIC_URL+ "/images/homeNars.jpg", name: "Nars", description: "Bold beauty that speaks for itself", bgcolor: "#d8b4b8" },
+    { id: "3", image:process.env.PUBLIC_URL+ "/images/HomeNars.jpg", name: "Nars", description: "Bold beauty that speaks for itself", bgcolor: "#d8b4b8" },
     { id: "4", image:process.env.PUBLIC_URL+ "/images/Armani-beauty.jpg", name: "Armani", description: "Refined elegance, perfected", bgcolor: "#eadbc8" },
     { id: "5", image:process.env.PUBLIC_URL+ "/images/homedior.jpg", name: "Dior", description: "Luxury, elegance in every detail", bgcolor: "#baac99" },
     { id: "6", image:process.env.PUBLIC_URL+ "/images/homeHB.jpg", name: "Huda Beauty", description: "Bold, flawless glam made to stand out", bgcolor: "#f5a98e" },
