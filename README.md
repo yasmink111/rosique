@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+# ROSIQUE Beauty Store Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Description
 
-## Available Scripts
+ROSIQUE is a beauty and cosmetics e-commerce website developed using ReactJS. The website allows users to browse beauty products from different brands and categories, add products to a shopping cart, save products to a wishlist, create accounts, and complete purchases through a checkout system.
 
-In the project directory, you can run:
+The project was developed as a Single Page Application (SPA) using ReactJS and React Router DOM to provide smooth navigation between pages without reloading the browser.
 
-### `npm start`
+## Main Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Browse products by category and brand
+* Product search functionality
+* Shopping cart management
+* Wishlist management
+* User registration and login system
+* Checkout page
+* Responsive design for desktop and mobile devices
+* Data persistence using Local Storage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+* ReactJS
+* JavaScript
+* HTML5
+* CSS3
+* React Router DOM
+* Git
+* GitHub
+* GitHub Pages
+* Visual Studio Code
+* Local Storage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup Instructions
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/your-username/rosique-beauty-store.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2. Navigate to the project folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd a2
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+4. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open your browser and visit:
 
-### Making a Progressive Web App
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Home Page
+* Brands Page
+* Brand Details Page
+* Makeup Page
+* Skin Care Page
+* Hair Care Page
+* On Sale Page
+* Wishlist Page
+* Login Page
+* Register Page
+* My Account Page
+* Checkout Page
+* About Us Page
+* Contact Us Page
 
-### Deployment
+# Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Home Page
+![Home Page](SS/Home.png)
 
-### `npm run build` fails to minify
+### Brands Page
+![Brands Page](SS/Brands.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Cart Sidebar
+![Cart Sidebar](SS/CartSideBar.png)
+
+### Checkout Page
+![Checkout Page](SS/Checkout.png)
+
+### AboutUs Page
+![AboutUs Page](SS/AboutUs.png)
+
+### BrandDetails Page
+![BrandDetails Page](SS/BrandDetails.png)
+
+### Contact Page
+![Contact Page](SS/Contact.png)
+
+### Haircare Page
+![Haircare Page](SS/Haircare.png)
+
+### Skincare Page
+![Skincare Page](SS/Skincare.png)
+
+### Makeup Page
+![Makeup Page](SS/Makeup.png)
+
+### Login Page
+![Login Page](SS/Login.png)
+
+### Register Page
+![Register Page](SS/Register.png)
+
+### MyAccount-Login Page
+![MyAccount-Login Page](SS/MyAccount-Login.png)
+
+### MyAccount-NoLogin Page
+![MyAccount-NoLogin Page](SS/MyAccount-NoLogin.png)
+
+### OnSale Page
+![OnSale Page](SS/OnSale.png)
+
+### SearchSidebar 
+![Search Sidebar](SS/SearchSideBar.png)
+
+### Menu SideBar
+![Menu SideBar](SS/Menu.png)
+
+### Wishlist Page
+![Wishlist Page](SS/Wishlist.png)
+
+# Author
+
+Yasmin Kassem , Khouloud Hassan
