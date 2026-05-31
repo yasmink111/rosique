@@ -34,15 +34,12 @@ The project was developed as a Single Page Application (SPA) using ReactJS and R
 
 1. Clone the repository:
 
-
-git clone https://github.com/your-username/rosique-beauty-store.git
-
+git clone https://github.com/yasmink111/rosique.git
 
 2. Navigate to the project folder:
 
 
 cd a2
-
 
 3. Install dependencies:
 
